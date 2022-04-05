@@ -1,0 +1,225 @@
+/*---FONTS---*/
+
+/*-Barlow Condensed-*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@500&display=swap');
+/*-Barlow-*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@500&display=swap');
+
+/*--SETTING DEFAULTS--*/
+* {
+    margin:0;
+    padding:0;
+
+    color: #25202c;
+    font-family: 'Open Sans';
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-family:'Barlow Condensed';
+}
+
+ul {
+    list-style-type: none;
+}
+
+.emphasis {
+    font-family:inherit;
+    color: #0ea6b5;
+}
+
+::selection {
+    /* background-color: rgb(112, 203, 210, 0.4); */
+    background-color: rgb(249, 198, 71, 0.4);
+}
+
+/*--NAVBAR--*/
+header {
+    background-color: hsl(205, 66%, 18%, 0.9);
+    display: flex;
+    position: fixed;
+    top:0;
+    width:100%;
+    padding: 1rem 0;
+    z-index:20;
+}
+header img {
+    padding: 0 2rem;
+    max-height: 3rem;
+}
+
+nav {
+    margin: auto 0 auto auto;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.1rem;
+    gap: 1rem;
+}
+
+.nav-list li {
+    flex-grow: 1;
+    flex-shrink:1;
+}
+
+.nav-list a {
+    color:#fff;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+
+.nav-list a:hover {
+    opacity: 0.8;
+}
+
+/*--FOOTER--*/
+footer {
+    background-color: #10344e;
+    display: flex;
+    gap: 2rem;
+    padding: 15vh 14vw 10vh 14vw;
+}
+
+footer section {
+    width: 25%;
+}
+
+footer section p{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+footer section h1{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+footer section h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+footer section h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+footer section a{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+footer section h2 {
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+footer section h3 {
+    font-size: 1rem;
+}
+
+.flinks li a {
+    opacity: 0.7;
+}
+
+.flinks li a:hover {
+    opacity:1;
+}
+
+#fsocials ul {
+    display: flex;
+    gap: 1rem;
+}
+
+#fsocials ul li a img {
+    max-width: 2rem;
+}
+
+/*--LAUNCH UR CAREER--*/
+
+#applynow {
+    background-color: #10344e;
+    display:grid;
+    place-items: center;
+    padding: 3rem;
+}
+
+#applynow h1 {
+    color: white;
+    font-family: Barlow;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    font-weight:100;
+    
+}
+
+#applynow button {
+    font-family: "Barlow Condensed";
+    font-size: 4rem;
+    color: #25202c;
+
+    border: none;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: .7rem 7rem .7rem 8rem;
+    cursor: pointer;
+}
+
+/*--EMAIL US--*/
+#emailus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:#0ea6b5;
+    padding: 2rem;
+}
+
+#emailus h1 {
+    font-family: Barlow;
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 7rem;
+}
+
+#emailus form input {
+    background-color:rgb(255, 255, 255, 0);
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 2rem;
+
+    border: none;
+}
+
+input:focus {
+    outline:none;
+}
+
+#emailus #email {
+    padding: 0.7rem 0.7rem;
+    border-bottom: solid 1px white;
+    font-size: 1.5rem;
+}
+
+#emailus #email::placeholder {
+    color: #fff;
+    opacity:1;
+}
+
+#emailus #submit {
+    font-weight:900;
+    cursor: pointer;
+    margin-left: 1rem;
+}

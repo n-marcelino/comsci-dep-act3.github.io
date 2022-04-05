@@ -1,0 +1,75 @@
+#landing{
+    width:100%;
+    height: 100vh;
+}
+
+#landing video {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+/*--LEARN MORE STYL--*/
+
+#study_with_us {
+    background-image:url("resources/swus.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height:100vh;
+    display:flex;
+    
+}
+
+#study_with_us div {
+    margin: auto 2rem auto auto;
+    width:50%;
+
+    text-align: center;
+    text-justify: inter-word;
+}
+
+#study_with_us div div {
+    margin: auto;
+    width:80%;
+
+    text-align: center;
+    text-justify: inter-word;
+    
+    line-height: 3rem;
+}
+
+#study_with_us div hr {
+    margin: 2rem auto 2rem auto;
+    width:60%;
+}
+
+#study_with_us div h1 {
+    font-size: 5rem;
+}
+
+#study_with_us div h2 {
+    font-family: Barlow;
+    font-size: 2rem;
+}
+
+#study_with_us div h3 {
+    font-family: Barlow;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 0.7rem;
+}
+
+#study_with_us div p {
+    font-size: 0.9rem;
+    line-height: 2rem;
+    padding-top: 2rem;
+}
+
+#btn_learn {
+    color: #000;
+    background-color: #f9c647;
+    padding:1rem 4rem;
+    box-shadow:5px 5px #25202c;
+    font-weight: bold;
+}

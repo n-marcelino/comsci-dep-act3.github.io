@@ -1,0 +1,143 @@
+/*--COVER--*/
+#cover {
+    background-image:url("resources/cover.png");
+    background-size: 100%;
+    background-origin: border-box;
+
+    height:87vh;
+    display:flex;
+    position:relative;
+    z-index: 10;
+}
+
+#cover div {
+    margin-top:auto;
+    padding: 3.5rem 7rem;
+}
+
+#cover h1{
+    color: #fff;
+    font-family: Barlow;
+    font-size: 3.7rem;
+}
+
+#cover h2{
+    color: #fff;
+    font-family: Barlow;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+/*--TOC--*/
+
+#toc {
+    background-color: white;
+    position:fixed;
+    top: 30%;
+    padding: 0 0 0 2rem;
+    border-right: solid 3px #d9d9d9;
+    border-bottom: solid 3px #d9d9d9;
+    font-size: 0.8rem;
+}
+#toc ul li {
+    padding: 0.5rem 0.7rem 0.5rem 0.4rem;
+    border-bottom: solid 1px #d9d9d9;
+}
+#toc ul li a {
+    padding: 0.5rem 0.7rem 0.5rem 0;
+}
+
+#toc ul li a:hover{
+    color: #0ea6b5;
+}
+
+#toc ul li a:active{
+    color: #0ea6b5;
+}
+
+/*--MAIN BODY--*/
+#body {
+    display: block;
+    margin-left:20%;
+    margin-right: auto;
+    width: 70vw;
+}
+
+article {
+    margin: 2rem 0 4rem 0;
+}
+
+article p {
+    line-height: 1.7rem;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0.7rem 0;
+}
+
+article h1 {
+    font-size: 2.4rem;
+}
+
+article hr {
+    margin: 2rem 0;
+    color: #d9d9d9;
+}
+
+/*--DROPDOWNS--*/
+#outlierhr {
+    margin: 2rem 0 0 0;
+}
+
+.dropline {
+    margin: 0;
+}
+
+#dropdownheader {
+    display:flex;
+}
+
+#dropdownheader h2 {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto 0 auto 0;
+    font-size: 1.2rem;
+}
+
+.dropdownbutton {
+    height: 5rem;
+    margin-left: auto;
+    cursor:pointer;
+}
+
+.dropdowncontent {
+    display:flex;
+    padding: 2rem 0 0 0;
+}
+
+.dropdowncontent img {
+    max-height: 20rem;
+    margin: 0 2rem 0 0;
+}
+
+.dropdowncontent ul li {
+    margin: 0.5rem 0;
+}
+
+
+/*--SCHOLARSHIPS--*/
+
+#scholarships h3 {
+    font-family:'Open Sans', sans-serif;
+}
+
+#scholarships h3:nth-child(5) {
+    margin: 2rem 0 0 0;
+}
+
+#scholarships ul {
+    list-style-type: circle;
+}
+
+#scholarships ul li {
+    margin: 0 0 0 1rem;
+    padding: 0.2rem 0 0 1rem;
+}
